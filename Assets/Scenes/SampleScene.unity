@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 374927136}
   - component: {fileID: 374927135}
+  - component: {fileID: 374927137}
   m_Layer: 0
   m_Name: MetalCube
   m_TagString: Untagged
@@ -207,6 +208,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &374927137
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374927134}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.20570621, y: -0.23921001}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.31, y: 0.98}
+    newSize: {x: 1.31, y: 0.98}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.85926133, y: 0.47310472}
+  m_EdgeRadius: 0
 --- !u!1 &820285463
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,6 +374,7 @@ GameObject:
   - component: {fileID: 1826489286}
   - component: {fileID: 1826489285}
   - component: {fileID: 1826489287}
+  - component: {fileID: 1826489288}
   m_Layer: 0
   m_Name: RubyRunDown1
   m_TagString: Untagged
@@ -434,6 +462,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
+--- !u!61 &1826489288
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826489284}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.014576018, y: 0.19104558}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 1.2806249, y: 1.28}
+    newSize: {x: 1.2806249, y: 1.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.309245, y: 0.38209164}
+  m_EdgeRadius: 0
 --- !u!1 &1900841098
 GameObject:
   m_ObjectHideFlags: 0
